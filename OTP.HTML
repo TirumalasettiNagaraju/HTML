@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #{
+            margin: auto;
+            background-color: antiquewhite;
+        }
+        div{
+            border: 2px solid black;
+            background-color: yellow;
+            padding: 3%;
+            text-align: center;
+        }
+        h2{
+            border: 3px dotted green;
+            background-color: aqua;
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+ <div>
+    <label for="">username</label>
+    <input type="text" id="input1">
+    <br><br>
+    <label for="">phone number</label>
+    <input type="text" id="ph">
+    <br><br>
+    <button onclick="sendotp()">sendotp</button>
+    <h2 id="output"></h2>
+ </div>  
+ <script src="./app.js"></script> 
+</body>
+</html>
